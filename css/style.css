@@ -246,6 +246,15 @@ img {
     flex-shrink: 0;
 }
 
+a.client-item {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.client-item:hover {
+    color: inherit;
+}
+
 .client-item h4 {
     font-size: 0.95rem;
     font-weight: 600;
