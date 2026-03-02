@@ -511,8 +511,8 @@ a.client-item:hover {
 
     .card-header {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        align-items: flex-start;
+        text-align: left;
     }
 
     .card-icon {
@@ -527,8 +527,8 @@ a.client-item:hover {
 
     .client-item {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        align-items: flex-start;
+        text-align: left;
     }
 
     .client-icon {
