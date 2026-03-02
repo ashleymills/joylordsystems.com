@@ -1,32 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joylord Systems — iOS App Development &amp; Consultancy</title>
-    <meta name="description" content="Joylord Systems — iOS app development, consultancy, and open-source software by Ashley Mills.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-<nav class="site-nav">
-    <div class="container">
-        <a href="./" class="nav-brand">Joylord Systems</a>
-        <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
-            <span></span><span></span><span></span>
-        </button>
-        <ul class="nav-links">
-            <li><a href="foto-flipper/">Photo Flipper</a></li>
-            <li><a href="secret-santa/">Secret Santa</a></li>
-            <li><a href="reachabilityswift/">Reachability.swift</a></li>
-            <li><a href="ashley-mills/">About</a></li>
-            <li><a href="support/">Support</a></li>
-        </ul>
-    </div>
-</nav>
+---
+layout: default
+title: "Joylord Systems \u2014 iOS App Development & Consultancy"
+description: "Joylord Systems \u2014 iOS app development, consultancy, and open-source software by Ashley Mills."
+---
 
 <section class="hero">
     <div class="container">
@@ -42,7 +18,7 @@
 
             <div class="card">
                 <div class="card-header">
-                    <img src="images/photo-flipper.png" alt="Photo Flipper icon" class="card-icon">
+                    <img src="{{ '/images/photo-flipper.png' | relative_url }}" alt="Photo Flipper icon" class="card-icon">
                     <div>
                         <h3>Photo Flipper</h3>
                         <p class="platform">iOS</p>
@@ -50,13 +26,13 @@
                 </div>
                 <p>Flip, rotate, crop, and apply filters to your photos with ease. A powerful yet simple photo editing tool.</p>
                 <a href="https://apps.apple.com/app/id749627884" class="app-store-link" target="_blank" rel="noopener">
-                    <img src="images/app-store-badge.svg" alt="Download on the App Store">
+                    <img src="{{ '/images/app-store-badge.svg' | relative_url }}" alt="Download on the App Store">
                 </a>
             </div>
 
             <div class="card">
                 <div class="card-header">
-                    <img src="images/secret-santa.png" alt="Secret Santa icon" class="card-icon">
+                    <img src="{{ '/images/secret-santa.png' | relative_url }}" alt="Secret Santa icon" class="card-icon">
                     <div>
                         <h3>Secret Santa</h3>
                         <p class="platform">iOS</p>
@@ -64,13 +40,13 @@
                 </div>
                 <p>Organise your Secret Santa gift exchange. Randomly assign participants and set spending limits.</p>
                 <a href="https://www.secretsantas.gifts" class="app-store-link" target="_blank" rel="noopener">
-                    <img src="images/app-store-badge.svg" alt="Download on the App Store">
+                    <img src="{{ '/images/app-store-badge.svg' | relative_url }}" alt="Download on the App Store">
                 </a>
             </div>
 
             <div class="card">
                 <div class="card-header">
-                    <img src="images/corediagram.png" alt="CoreDiagram icon" class="card-icon">
+                    <img src="{{ '/images/corediagram.png' | relative_url }}" alt="CoreDiagram icon" class="card-icon">
                     <div>
                         <h3>CoreDiagram</h3>
                         <p class="platform">macOS</p>
@@ -78,13 +54,13 @@
                 </div>
                 <p>Visualise Core Data models as clear, readable entity-relationship diagrams.</p>
                 <a href="https://apps.apple.com/app/id1671758409" class="app-store-link" target="_blank" rel="noopener">
-                    <img src="images/app-store-badge.svg" alt="Download on the App Store">
+                    <img src="{{ '/images/app-store-badge.svg' | relative_url }}" alt="Download on the App Store">
                 </a>
             </div>
 
             <div class="card">
                 <div class="card-header">
-                    <img src="images/video-flipper.png" alt="Video Flipper icon" class="card-icon">
+                    <img src="{{ '/images/video-flipper.png' | relative_url }}" alt="Video Flipper icon" class="card-icon">
                     <div>
                         <h3>Video Flipper</h3>
                         <p class="platform">iOS</p>
@@ -92,13 +68,13 @@
                 </div>
                 <p>Mirror and flip videos horizontally or vertically. Quick and easy video transformation.</p>
                 <a href="https://apps.apple.com/app/id1247905746" class="app-store-link" target="_blank" rel="noopener">
-                    <img src="images/app-store-badge.svg" alt="Download on the App Store">
+                    <img src="{{ '/images/app-store-badge.svg' | relative_url }}" alt="Download on the App Store">
                 </a>
             </div>
 
             <div class="card">
                 <div class="card-header">
-                    <img src="images/get-them-in.png" alt="Get Them In icon" class="card-icon">
+                    <img src="{{ '/images/get-them-in.png' | relative_url }}" alt="Get Them In icon" class="card-icon">
                     <div>
                         <h3>Get Them In</h3>
                         <p class="platform">iOS</p>
@@ -106,13 +82,13 @@
                 </div>
                 <p>Keep track of whose round it is. Never lose track of who owes a drink again.</p>
                 <a href="https://apps.apple.com/app/id1192426395" class="app-store-link" target="_blank" rel="noopener">
-                    <img src="images/app-store-badge.svg" alt="Download on the App Store">
+                    <img src="{{ '/images/app-store-badge.svg' | relative_url }}" alt="Download on the App Store">
                 </a>
             </div>
 
             <div class="card">
                 <div class="card-header">
-                    <img src="images/do-something-today.png" alt="Do Something Today icon" class="card-icon">
+                    <img src="{{ '/images/do-something-today.png' | relative_url }}" alt="Do Something Today icon" class="card-icon">
                     <div>
                         <h3>Do Something Today</h3>
                         <p class="platform">iOS</p>
@@ -120,7 +96,7 @@
                 </div>
                 <p>A simple, motivating task manager to help you focus on what matters most today.</p>
                 <a href="https://apps.apple.com/app/id6757720938" class="app-store-link" target="_blank" rel="noopener">
-                    <img src="images/app-store-badge.svg" alt="Download on the App Store">
+                    <img src="{{ '/images/app-store-badge.svg' | relative_url }}" alt="Download on the App Store">
                 </a>
             </div>
 
@@ -149,147 +125,147 @@
         <h2 class="section-title">Client Work</h2>
         <div class="client-grid">
             <a class="client-item" href="https://www.lapse.com" target="_blank" rel="noopener">
-                <img src="images/client-lapse.png" alt="Lapse" class="client-icon">
+                <img src="{{ '/images/client-lapse.png' | relative_url }}" alt="Lapse" class="client-icon">
                 <div>
                     <h4>Lapse</h4>
                     <span class="role">Senior Developer</span>
                 </div>
             </a>
             <a class="client-item" href="https://apps.apple.com/ie/app/everyman/id1449968931" target="_blank" rel="noopener">
-                <img src="images/client-everyman.png" alt="Everyman Cinema" class="client-icon">
+                <img src="{{ '/images/client-everyman.png' | relative_url }}" alt="Everyman Cinema" class="client-icon">
                 <div>
                     <h4>Everyman Cinema / Can Factory</h4>
                     <span class="role">Lead Developer</span>
                 </div>
             </a>
             <a class="client-item" href="https://gan.com/offerings/simulated-gaming" target="_blank" rel="noopener">
-                <img src="images/client-gan.png" alt="GAN" class="client-icon">
+                <img src="{{ '/images/client-gan.png' | relative_url }}" alt="GAN" class="client-icon">
                 <div>
                     <h4>GAN</h4>
                     <span class="role">Senior Developer</span>
                 </div>
             </a>
             <a class="client-item" href="https://apps.apple.com/gb/app/hotels-com-book-hotels-more/id284971959" target="_blank" rel="noopener">
-                <img src="images/client-hotels.png" alt="Hotels.com" class="client-icon">
+                <img src="{{ '/images/client-hotels.png' | relative_url }}" alt="Hotels.com" class="client-icon">
                 <div>
                     <h4>Hotels.com</h4>
                     <span class="role">Lead Developer</span>
                 </div>
             </a>
             <a class="client-item" href="https://www.crowd2fund.com/news/the-new-crowd2fund-ios-app" target="_blank" rel="noopener">
-                <img src="images/client-crowd2fund.png" alt="Crowd2Fund" class="client-icon">
+                <img src="{{ '/images/client-crowd2fund.png' | relative_url }}" alt="Crowd2Fund" class="client-icon">
                 <div>
                     <h4>Crowd2Fund</h4>
                     <span class="role">Consultant / Developer</span>
                 </div>
             </a>
             <a class="client-item" href="https://apps.apple.com/developer/rocket-sports-network/id1193276430" target="_blank" rel="noopener">
-                <img src="images/client-fanatix.png" alt="Fanatix" class="client-icon">
+                <img src="{{ '/images/client-fanatix.png' | relative_url }}" alt="Fanatix" class="client-icon">
                 <div>
                     <h4>Fanatix</h4>
                     <span class="role">Consultant / Developer</span>
                 </div>
             </a>
             <a class="client-item" href="https://www.huma.com" target="_blank" rel="noopener">
-                <img src="images/client-huma.png" alt="Huma" class="client-icon">
+                <img src="{{ '/images/client-huma.png' | relative_url }}" alt="Huma" class="client-icon">
                 <div>
                     <h4>Huma (ex. Medopad)</h4>
                     <span class="role">iOS Team Lead / Senior Developer</span>
                 </div>
             </a>
             <a class="client-item" href="https://axonvibe.com" target="_blank" rel="noopener">
-                <img src="images/client-sojo.png" alt="Sojo" class="client-icon">
+                <img src="{{ '/images/client-sojo.png' | relative_url }}" alt="Sojo" class="client-icon">
                 <div>
                     <h4>Sojo (Axon Vibe AG)</h4>
                     <span class="role">Senior Developer</span>
                 </div>
             </a>
             <div class="client-item">
-                <img src="images/client-powder-buddy.png" alt="Powder Buddy" class="client-icon">
+                <img src="{{ '/images/client-powder-buddy.png' | relative_url }}" alt="Powder Buddy" class="client-icon">
                 <div>
                     <h4>Powder Buddy</h4>
                     <span class="role">Solo Developer</span>
                 </div>
             </div>
             <a class="client-item" href="https://apps.apple.com/gb/app/theory-test-pro/id637830653" target="_blank" rel="noopener">
-                <img src="images/client-theory-test.png" alt="Theory Test Pro" class="client-icon">
+                <img src="{{ '/images/client-theory-test.png' | relative_url }}" alt="Theory Test Pro" class="client-icon">
                 <div>
                     <h4>Theory Test Pro</h4>
                     <span class="role">Solo Developer</span>
                 </div>
             </a>
             <a class="client-item" href="http://www.bumbumtrain.com" target="_blank" rel="noopener">
-                <img src="images/client-ymbbt.png" alt="You Me Bum Bum Train" class="client-icon">
+                <img src="{{ '/images/client-ymbbt.png' | relative_url }}" alt="You Me Bum Bum Train" class="client-icon">
                 <div>
                     <h4>You Me Bum Bum Train</h4>
                     <span class="role">Design / Develop</span>
                 </div>
             </a>
             <div class="client-item">
-                <img src="images/client-adfonic.png" alt="Adfonic" class="client-icon">
+                <img src="{{ '/images/client-adfonic.png' | relative_url }}" alt="Adfonic" class="client-icon">
                 <div>
                     <h4>Adfonic SDK</h4>
                     <span class="role">Developer</span>
                 </div>
             </div>
             <div class="client-item">
-                <img src="images/client-mail-online.png" alt="Mail Online" class="client-icon">
+                <img src="{{ '/images/client-mail-online.png' | relative_url }}" alt="Mail Online" class="client-icon">
                 <div>
                     <h4>Mail Online for iPad</h4>
                     <span class="role">Lead Developer</span>
                 </div>
             </div>
             <a class="client-item" href="https://www.campaignlive.co.uk/article/nike-pro-direct-soccer-zone-app-r-ga-london/1124328" target="_blank" rel="noopener">
-                <img src="images/client-pro-direct.png" alt="PRO-DIRECT Soccer Zone" class="client-icon">
+                <img src="{{ '/images/client-pro-direct.png' | relative_url }}" alt="PRO-DIRECT Soccer Zone" class="client-icon">
                 <div>
                     <h4>PRO-DIRECT Soccer Zone (RGA)</h4>
                     <span class="role">Solo Developer</span>
                 </div>
             </a>
             <a class="client-item" href="https://www.thecoolist.com/phaidon-design-classics-ipad-app/" target="_blank" rel="noopener">
-                <img src="images/client-phaidon.png" alt="Phaidon Design Classics" class="client-icon">
+                <img src="{{ '/images/client-phaidon.png' | relative_url }}" alt="Phaidon Design Classics" class="client-icon">
                 <div>
                     <h4>Phaidon Design Classics (Zolmo)</h4>
                     <span class="role">Developer</span>
                 </div>
             </a>
             <div class="client-item">
-                <img src="images/client-hobsons.png" alt="Hobson's Studio Finder" class="client-icon">
+                <img src="{{ '/images/client-hobsons.png' | relative_url }}" alt="Hobson's Studio Finder" class="client-icon">
                 <div>
                     <h4>Hobson's Studio Finder</h4>
                     <span class="role">Design / Develop</span>
                 </div>
             </div>
             <div class="client-item">
-                <img src="images/client-nike-football-team.png" alt="Nike Football+" class="client-icon">
+                <img src="{{ '/images/client-nike-football-team.png' | relative_url }}" alt="Nike Football+" class="client-icon">
                 <div>
                     <h4>Nike Football+ Team Edition (AKQA)</h4>
                     <span class="role">Solo Developer</span>
                 </div>
             </div>
             <a class="client-item" href="https://iphonehelp.in/2010/02/05/nike-football-presents-master-accuracy-training-app-app-store-free/" target="_blank" rel="noopener">
-                <img src="images/client-nike-football-accuracy.png" alt="Nike Football+ Master Accuracy" class="client-icon">
+                <img src="{{ '/images/client-nike-football-accuracy.png' | relative_url }}" alt="Nike Football+ Master Accuracy" class="client-icon">
                 <div>
                     <h4>Nike Football+ Master Accuracy (AKQA)</h4>
                     <span class="role">Developer</span>
                 </div>
             </a>
             <a class="client-item" href="https://www.youtube.com/watch?v=EBzI8lH5Ed4" target="_blank" rel="noopener">
-                <img src="images/client-nike-true-city.png" alt="Nike True City" class="client-icon">
+                <img src="{{ '/images/client-nike-true-city.png' | relative_url }}" alt="Nike True City" class="client-icon">
                 <div>
                     <h4>Nike True City (AKQA)</h4>
                     <span class="role">Developer</span>
                 </div>
             </a>
             <div class="client-item">
-                <img src="images/client-muse.png" alt="Muse" class="client-icon">
+                <img src="{{ '/images/client-muse.png' | relative_url }}" alt="Muse" class="client-icon">
                 <div>
                     <h4>Muse (Fifty Foot Squid)</h4>
                     <span class="role">Lead Developer</span>
                 </div>
             </div>
             <div class="client-item">
-                <img src="images/client-open-championship.png" alt="The Open Championship" class="client-icon">
+                <img src="{{ '/images/client-open-championship.png' | relative_url }}" alt="The Open Championship" class="client-icon">
                 <div>
                     <h4>The Open Championship (OOSocial)</h4>
                     <span class="role">Developer</span>
@@ -298,12 +274,3 @@
         </div>
     </div>
 </section>
-
-<footer class="site-footer">
-    <div class="container">
-        <p>&copy; 2025 Joylord Systems. All rights reserved.</p>
-    </div>
-</footer>
-
-</body>
-</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<nav class="site-nav">
+    <div class="container">
+        <a href="{{ '/' | relative_url }}" class="nav-brand">Joylord Systems</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="{{ '/foto-flipper/' | relative_url }}">Photo Flipper</a></li>
+            <li><a href="{{ '/secret-santa/' | relative_url }}">Secret Santa</a></li>
+            <li><a href="{{ '/reachabilityswift/' | relative_url }}">Reachability.swift</a></li>
+            <li><a href="{{ '/ashley-mills/' | relative_url }}">About</a></li>
+            <li><a href="{{ '/support/' | relative_url }}">Support</a></li>
+        </ul>
+    </div>
+</nav>
+
+{{ content }}
+
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; 2025 Joylord Systems. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
