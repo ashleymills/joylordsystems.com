@@ -511,13 +511,14 @@ a.client-item:hover {
 
     .card-header {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        text-align: center;
     }
 
     .card-icon {
-        width: 56px;
-        height: 56px;
-        border-radius: 12px;
+        width: 64px;
+        height: 64px;
+        border-radius: 14px;
     }
 
     .client-grid {
@@ -526,8 +527,14 @@ a.client-item:hover {
 
     .client-item {
         flex-direction: column;
-        align-items: flex-start;
-        text-align: left;
+        align-items: center;
+        text-align: center;
+    }
+
+    .client-icon {
+        width: 64px;
+        height: 64px;
+        border-radius: 14px;
     }
 
     .stat-row {
