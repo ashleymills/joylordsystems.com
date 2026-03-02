@@ -239,6 +239,7 @@ img {
     padding: 14px 16px;
     display: flex;
     align-items: flex-start;
+    text-align: left;
     gap: 12px;
 }
 
