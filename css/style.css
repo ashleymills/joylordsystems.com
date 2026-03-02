@@ -509,6 +509,11 @@ a.client-item:hover {
         padding: 16px;
     }
 
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .card-icon {
         width: 56px;
         height: 56px;
@@ -517,6 +522,12 @@ a.client-item:hover {
 
     .client-grid {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .client-item {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
     }
 
     .stat-row {
