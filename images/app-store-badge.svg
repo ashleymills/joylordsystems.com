@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
+  <rect width="120" height="40" rx="5" fill="#000"/>
+  <text x="38" y="12" fill="#fff" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="6.5" letter-spacing="0.04em">Download on the</text>
+  <text x="38" y="26" fill="#fff" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">App Store</text>
+  <g transform="translate(10, 5) scale(0.55)" fill="#fff">
+    <path d="M24.769 20.3a5.884 5.884 0 0 1 2.8-4.939 6.027 6.027 0 0 0-4.748-2.567c-2-.209-3.942 1.2-4.964 1.2-1.041 0-2.613-1.181-4.307-1.147a6.346 6.346 0 0 0-5.342 3.257c-2.309 4-.588 9.879 1.63 13.112 1.1 1.583 2.4 3.354 4.093 3.292 1.655-.069 2.275-1.06 4.272-1.06 1.978 0 2.559 1.06 4.288 1.022 1.777-.03 2.9-1.593 3.965-3.19a13.212 13.212 0 0 0 1.8-3.674 5.685 5.685 0 0 1-3.487-5.306zM21.458 10.543a5.793 5.793 0 0 0 1.326-4.152 5.9 5.9 0 0 0-3.817 1.974 5.522 5.522 0 0 0-1.36 4 4.881 4.881 0 0 0 3.851-1.822z"/>
+  </g>
+</svg>
