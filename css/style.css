@@ -217,7 +217,8 @@ img {
 
 .card .app-store-link {
     display: inline-block;
-    margin-top: 14px;
+    margin-top: auto;
+    padding-top: 14px;
 }
 
 .card .app-store-link img {
