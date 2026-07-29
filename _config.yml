@@ -2,3 +2,7 @@ title: Joylord Systems
 description: iOS App Development & Consultancy
 baseurl: ""
 url: "https://www.joylordsystems.com"
+
+# Jekyll excludes dot-folders by default; publish .well-known so the Apple App Site
+# Association file (universal links for the Engage app) is served.
+include: [".well-known"]

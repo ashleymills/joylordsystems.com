@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["9APVGUJV73.uk.co.joylordsystems.Engage"],
+        "components": [
+          { "/": "/*" }
+        ]
+      }
+    ]
+  }
+}
