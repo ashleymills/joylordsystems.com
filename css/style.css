@@ -215,10 +215,16 @@ img {
     line-height: 1.5;
 }
 
-.card .app-store-link {
-    display: inline-block;
+.card .store-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
     margin-top: auto;
     padding-top: 14px;
+}
+
+.card .app-store-link {
+    display: inline-block;
 }
 
 .card .app-store-link img {
@@ -357,6 +363,7 @@ a.client-item:hover {
 .app-store-badge {
     display: inline-block;
     margin-top: 8px;
+    margin-right: 8px;
 }
 
 .app-store-badge img {
